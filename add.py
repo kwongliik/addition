@@ -1,5 +1,5 @@
 def sum(x, y):
-    return .........
+    ............
 
 def addition():
     a = int(input('Enter 1st number: '))
