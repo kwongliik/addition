@@ -1,7 +1,7 @@
 import add
 import pytest
 
-def test_kuboid(monkeypatch, capsys):
+def test_addition(monkeypatch, capsys):
     # Define a function to simulate multiple user inputs
     user_inputs = ["3", "4"]
 
