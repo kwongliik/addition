@@ -24,6 +24,6 @@ jobs:
     - name: Autograding Reporter
       uses: education/autograding-grading-reporter@v1
       env:
-        KUBOID_RESULTS: "${{steps.kuboid.outputs.result}}"
+        ADDITION_RESULTS: "${{steps.addition.outputs.result}}"
       with:
         runners: addition
