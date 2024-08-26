@@ -13,12 +13,12 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: addition
+    - name: addition 
       id: addition
       uses: classroom-resources/autograding-python-grader@v1
       with:
         timeout: 10
-        max-score: 5
+        max-score: 2
         setup-command: ''
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
