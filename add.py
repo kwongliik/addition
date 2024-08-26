@@ -1,6 +1,6 @@
 def sum(x, y):
-    answer = x + y
-    return answer
+    answer = ......
+    return ......
 
 def addition():
     a = int(input('Enter 1st number: '))
